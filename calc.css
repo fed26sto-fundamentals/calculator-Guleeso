@@ -58,3 +58,24 @@ button:active{
 .operator-btn{
     background-color: hsl(251, 100%, 50%);
 }
+
+.name{
+    text-align: right;
+    padding: 20px;
+    color: blue;
+}
+
+.row-with-calc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    grid-column: span 4; 
+}
+
+#calculator-name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    color: blue;
+    margin-left: 10px;
+}
